@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.body {
+    min-height: max-content;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    background-color: #ede7f6;
+    /* overflow-x: hidden; */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 80%;
+}
+
+.desc>hr {
+    width: 100%;
+    color: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.desc>p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    word-break: break-all;
+}
+
+.desc>.required {
+    color: #d93025;
+    font-weight: 400;
+    padding: 0;
+}
+
+.desc>h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.desc>h4 {
+    font-weight: 700;
+    color: #5f6368;
+}
+
+.box {
+    min-width: 80%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 6px;
+}
+
+.box>select {
+    width: 100px;
+}
+
+.box>section:focus,
+.box>option:active {
+    outline: none;
+    border: transparent;
+}
+
+.box>h3 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #202124;
+}
+
+em {
+    color: #d93025;
+}
+
+.box>input {
+    border: transparent;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    min-width: 200px;
+    width: 80%;
+}
+
+.controls {
+    padding: 17px;
+    margin: 20px;
+    /* width: ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.controls>button {
+    border: none;
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+    border-radius: 4px;
+    color: rgb(103, 58, 183);
+    ;
+}
+
+input:focus {
+    outline: none;
+}
+
+.random {
+    padding: 10px;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
